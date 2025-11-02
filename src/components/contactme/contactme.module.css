@@ -1,0 +1,130 @@
+.container {
+    height: 120%   ;
+    background-color: white;
+    width: 100%;
+    padding: 80px 0;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.line {
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #2c3e50;
+    border-radius: 4px;
+}
+
+.star {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+.star i {
+    display: block;
+}
+
+.formContainer {
+    margin-top: 2rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formGroup {
+    position: relative;
+}
+
+.formControl {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #e9ecef;
+    background: transparent;
+    transition: border-color 0.3s ease;
+    outline: none;
+    font-family: inherit;
+}
+
+.formControl::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.formControl:focus {
+    border-bottom-color: #1bbc9b;
+}
+
+textarea.formControl {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submitButton {
+    background-color: #1bbc9b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.submitButton:hover {
+    background-color: #159a80;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 0;
+    }
+    
+    .content {
+        padding: 0 15px;
+    }
+    
+    .formControl {
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+    
+    .line {
+        width: 80px;
+    }
+}
+
+/* Focus states for accessibility */
+.formControl:focus {
+    border-bottom-color: #1bbc9b;
+    box-shadow: 0 1px 0 0 #1bbc9b;
+}
