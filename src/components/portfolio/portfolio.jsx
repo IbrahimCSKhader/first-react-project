@@ -17,22 +17,22 @@ export default function Portfolio() {
               </div>
               <div className={`${styles.images} row `}>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/cabin.png" alt="Cabin" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/cabin.png" alt="Cabin" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/cake.png" alt="Cake" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/cake.png" alt="Cake" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/circus.png" alt="Circus" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/circus.png" alt="Circus" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/game.png" alt="Game" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/game.png" alt="Game" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/safe.png" alt="Safe" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/safe.png" alt="Safe" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/src/assets/images/submarine.png" alt="Submarine" className="img-fluid rounded shadow-sm" />
+                  <img src="./public/images/submarine.png" alt="Submarine" className="img-fluid rounded shadow-sm" />
                 </div>
 
               </div>
