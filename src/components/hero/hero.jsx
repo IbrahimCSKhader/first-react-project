@@ -5,7 +5,7 @@ export default function Hero() {
 	return (
 		<section className={styles.container || ''}>
             <div className="mainPortfolio d-flex justify-content-center align-items-center flex-column  ">
-                <img className='m-3' src="./public/images/avataaars.svg" alt="" />
+                <img className='m-3' src="avataaars.svg" alt="" />
                 <h2 className='text-white fw-bold'>START BOOTSTRAP</h2>
             </div>
             <div className={styles.divider}>
